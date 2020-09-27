@@ -11,6 +11,7 @@ func main() {
 	fmt.Println(b)
 }
 
+// 这种方法会造成内存溢出
 func isHappy(n int) bool {
 	numStr := strconv.Itoa(n)
 	//查看类型
