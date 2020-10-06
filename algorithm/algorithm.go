@@ -33,6 +33,31 @@ func IsHappy(n int) bool {
 	}
 }
 
+func IsHappyNum01(num int) bool {
+
+	set := map[int]bool{}
+	//  num, set[num] = step(num), true 代码解释: step(num) 返回值赋值给num，true 赋值给 set[num]
+	for ; num != 1 && !set[num]; num, set[num] = step(num), true {
+	}
+	//
+	for {
+		if num != 1 && !set[num] {
+			num := step(num)
+			set[num] = true
+		}
+		return num == 1
+	}
+}
+
+func step(n int) int {
+	sum := 0
+	for n > 0 {
+		sum += (n % 10) * (n % 10)
+		n = n / 10
+	}
+	return sum
+}
+
 //init函数不需要传入参数也没有返回值，而且init函数是不能被其他函数调用的。
 //在一个文件中也可以有多个init函数
 //只是为了执行init函数而导入包：import _ "image/png"

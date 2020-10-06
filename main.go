@@ -1,17 +1,21 @@
 package main
 
 import (
-	"LeetCode_Leran/algorithm"
-	"LeetCode_Leran/utils"
 	"container/list"
 	"fmt"
 	"runtime"
 )
 
 func main() {
-	var i = 19
-	algorithm.IsHappy(i)
-	utils.SayHello()
+	//var i = 19
+	//algorithm.IsHappy(i)
+	//utils.SayHello()
+
+	sum := 0
+	for i := 0; i < 10; i++ {
+
+	}
+	fmt.Println(sum)
 
 	//defer func() {
 	//  // defer无论所在的函数是正常结束,还是异常结束都会被执行
