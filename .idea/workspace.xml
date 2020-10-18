@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ace1ec0-1470-4dbb-80fe-70a52f158beb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="1ace1ec0-1470-4dbb-80fe-70a52f158beb" name="Default Changelist" comment="go 代码解析">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,10 +78,10 @@
     </environment>
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1602124517772">
+    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1603037950614">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="278" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1602124517772" />
+    <state x="278" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1603037950614" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1602124564963">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
