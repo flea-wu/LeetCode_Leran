@@ -41,7 +41,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RunManager">
     <configuration name="go build LeetCode_Leran" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -122,10 +122,10 @@
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1602124564965" />
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.23.1440.840@0.23.1440.840" timestamp="1601913676105" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1601900806063">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1603112376764">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601900806063" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603112376764" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602124520792">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
