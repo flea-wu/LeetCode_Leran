@@ -3,7 +3,9 @@ package main
 import (
 	"container/list"
 	"fmt"
+	"math"
 	"runtime"
+	strings "strings"
 )
 
 func main() {
@@ -24,6 +26,21 @@ func main() {
 	//    fmt.Println("recover捕获到了", err)
 	//  }
 	//}()
+
+}
+
+func longestCommonPrefix(strs []string) {
+	datamap := make(map[string]string)
+	l := list.New()
+	for _, str := range strs {
+		l.PushFront(len(str))
+		
+
+		split := strings.Split(str, "")
+		//for _, char := range split {
+		//
+		//}
+	}
 
 }
 
