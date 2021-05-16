@@ -3,9 +3,8 @@ package main
 import (
 	"container/list"
 	"fmt"
-	"math"
+	_ "math"
 	"runtime"
-	strings "strings"
 )
 
 func main() {
@@ -17,7 +16,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 
 	}
-	fmt.Println(sum)
+	fmt.Println(sum,1111)
 
 	//defer func() {
 	//  // defer无论所在的函数是正常结束,还是异常结束都会被执行
@@ -29,20 +28,20 @@ func main() {
 
 }
 
-func longestCommonPrefix(strs []string) {
-	datamap := make(map[string]string)
-	l := list.New()
-	for _, str := range strs {
-		l.PushFront(len(str))
-		
-
-		split := strings.Split(str, "")
-		//for _, char := range split {
-		//
-		//}
-	}
-
-}
+//func longestCommonPrefix(strs []string) {
+//	datamap := make(map[string]string)
+//	l := list.New()
+//	for _, str := range strs {
+//		l.PushFront(len(str))
+//
+//
+//		split := strings.Split(str, "")
+//		//for _, char := range split {
+//		//
+//		//}
+//	}
+//
+//}
 
 func test() {
 	l := list.New()
