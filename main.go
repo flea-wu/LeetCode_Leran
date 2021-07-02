@@ -8,23 +8,6 @@ import (
 )
 
 func main() {
-	//var i = 19
-	//algorithm.IsHappy(i)
-	//utils.SayHello()
-
-	sum := 0
-	for i := 0; i < 10; i++ {
-
-	}
-	fmt.Println(sum,1111)
-
-	//defer func() {
-	//  // defer无论所在的函数是正常结束,还是异常结束都会被执行
-	//  // recover可以捕获panic异常
-	//  if err := recover(); err != nil {
-	//    fmt.Println("recover捕获到了", err)
-	//  }
-	//}()
 
 }
 
