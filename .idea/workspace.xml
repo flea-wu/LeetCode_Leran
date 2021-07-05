@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ace1ec0-1470-4dbb-80fe-70a52f158beb" name="Default Changelist" comment="go 代码解析">
+    <list default="true" id="1ace1ec0-1470-4dbb-80fe-70a52f158beb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basis/print_demo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="go build LeetCode_Leran" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -72,7 +73,8 @@
     <MESSAGE value="重新初始化项目" />
     <MESSAGE value="go 处理异常" />
     <MESSAGE value="go 代码解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="go 代码解析" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"LeetCode_Leran/basis"
 	"container/list"
 	"fmt"
 	_ "math"
@@ -8,7 +9,7 @@ import (
 )
 
 func main() {
-
+	basis.PracticePrint()
 }
 
 //func longestCommonPrefix(strs []string) {
