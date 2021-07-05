@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	basis.PracticePrint()
+	basis.DataStructure()
 }
 
 //func longestCommonPrefix(strs []string) {
