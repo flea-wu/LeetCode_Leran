@@ -73,5 +73,8 @@ func DataStructure() {
 	fmt.Println(i)
 
 	// 基本数据类型和 string 类型转换
+	// 可以直接使用 Sprintf 进行转换
+	sprintf := fmt.Sprintf("%d", 1)
+	fmt.Println(sprintf)
 
 }
