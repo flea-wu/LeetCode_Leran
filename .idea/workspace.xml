@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ace1ec0-1470-4dbb-80fe-70a52f158beb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basis/data_structure.go" beforeDir="false" afterPath="$PROJECT_DIR$/basis/basic_data_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="print_demo" />
     <MESSAGE value="基本数据类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本数据类型" />
+    <MESSAGE value="类型转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="类型转换" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

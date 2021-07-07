@@ -2,6 +2,7 @@ package basis
 
 import (
 	"fmt"
+	"strconv"
 	"unsafe"
 )
 
@@ -76,5 +77,14 @@ func DataStructure() {
 	// 可以直接使用 Sprintf 进行转换
 	sprintf := fmt.Sprintf("%d", 1)
 	fmt.Println(sprintf)
+	// 使用 strconv 包进行转换
+	strconv.Itoa(1)
+	strconv.FormatBool(true)
+
+	// string 转基本数据类型；如果没转换成功，转化后的值可能为 默认值
+	parseBool, _ := strconv.ParseBool("true")
+	fmt.Println(parseBool)
+
+	// 指针类型
 
 }
