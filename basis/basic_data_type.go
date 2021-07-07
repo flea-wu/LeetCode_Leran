@@ -86,5 +86,41 @@ func DataStructure() {
 	fmt.Println(parseBool)
 
 	// 指针类型
+	a := 5
+	b := &a
+	fmt.Println(b)
+	fmt.Println(*b)
+
+	// 值类型和引用类型
+	// 值类型：基本数据类型int系列，float系列，bool，string，数组，结构体struct
+	// 引用类型：指针，slice切片，map，管道chan，interface，等都是引用类型
+	// 值类型：变量直接存储值，通常存储在内存栈中
+	// 引用类型：变量存储地址
+
+	if 1 > 2 || 3 < 4 {
+
+	}
+
+	// 自定义类型
+
+	for a := 1; a < 10; a++ {
+		fmt.Println("hhhhh")
+	}
+
+	// 函数也是一种数据类型，func
+
+	// go 支持自定义类型
+	// type 自定义类型名称 数据类型；相当于一个别名
+
+	type helloType int
+	var helloVar helloType = 1
+	fmt.Printf("%T", helloVar)
+	fmt.Println()
+
+	// init 函数，每个原文件都可以有一个 init 函数
+	// 在 main.go 中 全局变量 > init 函数 > main 函数
+	// 在 其他.go 和 main.go 中 其他.go 中的 全局变量 > init > main.go 中 全局变量 > init 函数 > main 函数
+
+	// 匿名函数
 
 }
