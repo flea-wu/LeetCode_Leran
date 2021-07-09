@@ -77,7 +77,8 @@
     <MESSAGE value="print_demo" />
     <MESSAGE value="基本数据类型" />
     <MESSAGE value="类型转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="类型转换" />
+    <MESSAGE value="init 函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 函数" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

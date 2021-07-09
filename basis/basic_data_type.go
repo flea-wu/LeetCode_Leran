@@ -122,5 +122,61 @@ func DataStructure() {
 	// 在 其他.go 和 main.go 中 其他.go 中的 全局变量 > init > main.go 中 全局变量 > init 函数 > main 函数
 
 	// 匿名函数
+	res := func(n1 int, n2 int) int {
+		return n1 + n2
+	}(1, 3)
+	fmt.Println("结果为：", res)
+
+	// 将匿名函数赋值给变量
+	res2 := func(n1 int, n2 int) int {
+		return n1 + n2
+	}
+
+	i2 := res2(1, 2)
+	fmt.Println(i2)
+	// 全局匿名函数，将匿名函数赋值给全局变量
+
+	// 闭包，闭包是类，函数是操作， n是字段；函数和它使用的字段构成闭包
+
+	// defer 函数，当函数执行完，再执行 defer 栈中函数
+
+	defer func() {
+		fmt.Println("defer...")
+	}()
+
+	fmt.Println("defer end")
+
+	// defer 将语句放入到栈中时，也会将相关的值拷贝进栈
+
+	// defer 主要作用用于关闭资源
+
+	// 函数的传参方式
+	// 1. 值传递，2. 引用传递
+	// 不管是值传递还是引用传递，都是拷贝，值传递拷贝的是值，引用传递拷贝的是地址
+
+	// 操作字符串常见函数
+	// 遍历字符串，需要将字符串转换成 []rune
+
+	// 时间和日期相关函数 time
+
+	// go 一些内置函数 len 求长度；new 主要用来值类型分配内存，返回的是指针 例：new(int)
+	// make 也是来分配内存，主要用来分配引用类型的内存，例如：channel，map，slice
+
+	// go 中的异常
+	// panic 相当于java中的 throw，recover 相当于 try-catch
+	// 自定义错误 error.New(xxx)
+
+	// 数组和切片
+	var arr [7]int
+	arr[0] = 1
+	i3 := &arr
+	fmt.Println(i3)
+	// 数组地址等于数组元素第一个，for-range 遍历数组
+
+	// 切片，1.对数组的一个引用 2.make
+	// 基本语法
+	var myslice []int = make([]int, 1, 1)
+	// cap 容量（可选，cap>=len），len 大小
+	fmt.Println(myslice)
 
 }
